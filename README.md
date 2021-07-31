@@ -1,12 +1,12 @@
-This is a small Windows script to help extract Wings! amiga disks and the Kickstart 1.2 firmware from the GOG release. Also possible to extract from Linux, as explained below.
+This is a small Windows and Linux script to help extract Wings! Amiga disks and the Kickstart 1.2 firmware from the GOG release.
 
 # Requirements
 
 To have [7-Zip](https://www.7-zip.org/) installed.
 
-# Instructions
+# Windows Instructions
 
-1. Open the command prompt and run the command `set PATH=%PATH%;C:\Program Files\7-Zip\` (change `C:\Program Files\7-Zip\` to where you installed 7-Zip, if you didn't install it in the default folder)
+1. If 7-Zip's install path isn't set in the enviroment paths, open the command prompt and run the command `set PATH=%PATH%;C:\Program Files\7-Zip\` (change `C:\Program Files\7-Zip\` to where you installed 7-Zip, if you didn't install it in the default folder)
 2. Download [extractwings's latest build](https://github.com/sigboe/extractwings/archive/refs/heads/master.zip)
 3. Unzip extractwings somewhere you can find
 4. Install Wings!
@@ -14,8 +14,8 @@ To have [7-Zip](https://www.7-zip.org/) installed.
 6. Drag and drop it over the extractwings.bat file
 7. You should now have three new files, wings-1.adf, wings-2.adf and Kick12.rom. The .adf files are your ROM, and Kick12.rom is the firmware file.
 
-# Linux
-For Linux, things are simpler. Just run these commands from the folder with Wings.exe using the terminal:
+# Linux Instructions
+For Linux, things are simpler. Just run the commands below:
 
 ```
 7z e -tzip -aos Wings.exe romwings.bin -r
@@ -23,7 +23,7 @@ For Linux, things are simpler. Just run these commands from the folder with Wing
 dd if=romwings.bin of=wings-1.adf bs=1 skip=4 count=901120
 dd if=romwings.bin of=wings-2.adf bs=1 skip=901124 count=901120
 ```
-Get Wings.exe by installing Wings! using wine, or extract the setup file using innoextract
+Get Wings.exe by installing Wings! using Wine, or extract the setup file using innoextract
 
 # Credits
 
