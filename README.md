@@ -36,4 +36,4 @@ The Kickstart 1.2 firmware was found by @Auster-South-Anemoi
 
 # License
 
-This script contains 3 lines of functional code, I share it as public domain. This script is provided as documentation and a tool. Only request is if you use this in another project, I would appreciate if you gave credit.
+This script contains 4 lines of functional code, I share it as public domain. This script is provided as documentation and a tool. Only request is if you use this in another project, I would appreciate if you gave credit.
