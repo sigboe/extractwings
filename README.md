@@ -1,4 +1,4 @@
-This is a small Windows and Linux script to help extract Wings! Amiga disks and the Kickstart 1.2 firmware from the GOG release.
+This is a small Windows script and instructions for Linux to help extract Wings! Amiga disks and the Kickstart 1.2 firmware from the GOG release.
 
 # Requirements
 
